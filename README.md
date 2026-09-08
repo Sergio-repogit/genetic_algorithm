@@ -4,6 +4,7 @@
 ![Streamlit](https://img.shields.io/badge/streamlit-1.28%2B-FF4B4B.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://geneticalgorithm-hxkebfdpdeecjunrpbpzdf.streamlit.app)
 
 Optimizador interactivo desarrollado en **Python** y **Streamlit** que utiliza **Algoritmos Genéticos (GA)** para maximizar la audiencia televisiva estimada en partidos de LaLiga (primera división de fútbol español), garantizando el cumplimiento de restricciones operativas y de emisión.
 
@@ -112,8 +113,8 @@ La interfaz se abrirá automáticamente en tu navegador web en `http://localhost
 | **Tamaño de Población ($P$)** | $100 - 2000$ | Número de individuos evaluados por generación. |
 | **Generaciones Máximas ($G$)** | $50 - 1000$ | Límite superior de iteraciones del algoritmo genético. |
 | **Paciencia / Parada Temprana** | $5 - 30$ gen | Generaciones sin mejora sustancial ($<0.1\%$) para emitir alerta. |
-| **Tasa de Mutación 1 (Aleatoria)** | $0% - 100\%$ | Probabilidad de reasignar aleatoriamente la franja horaria de un partido. |
-| **Tasa de Mutación 2 (Intercambio)** | $0% - 100\%$ | Probabilidad de intercambiar franjas entre dos partidos. |
+| **Tasa de Mutación 1 (Aleatoria)** | $0 - 100$% | Probabilidad de reasignar aleatoriamente la franja horaria de un partido. |
+| **Tasa de Mutación 2 (Intercambio)** | $0 - 100$% | Probabilidad de intercambiar franjas entre dos partidos. |
 | **Tamaño de Torneo ($k$)** | $5$ | Cantidad de individuos competidores en la fase de selección. |
 
 ---
